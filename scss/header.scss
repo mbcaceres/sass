@@ -1,0 +1,21 @@
+header { 
+background-color: $colorPrimario;
+   div {
+	padding: 4px;
+	h1{
+	font-size: 30px;
+	color:$colorTipografia;
+	font-family: montserrat;}
+	ul {
+	text-decoration: none;
+	}
+  }
+}
+
+a{
+	text-decoration:none;
+	&:hover {
+    color: $colorTipografia;
+    font-size: 20px }
+}
+
